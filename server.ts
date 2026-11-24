@@ -3,7 +3,7 @@ import { createServer as createViteServer } from 'vite';
 import { apiRouter } from './apps/api/src/routes/api';
 import path from 'path';
 
-const PORT = 3000;
+const PORT = parseInt(process.env.PORT || '3000', 10);
 
 async function startServer() {
   const app = express();

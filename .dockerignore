@@ -1,0 +1,8 @@
+node_modules
+dist
+.env
+*.log
+infra
+public/assets
+src/tests
+bun.lock

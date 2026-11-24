@@ -1,0 +1,9 @@
+{
+  "name": "cleanstreak",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "build": "npm install --legacy-peer-deps && npx vite build",
+    "start": "node --import tsx/esm server.ts"
+  }
+}
